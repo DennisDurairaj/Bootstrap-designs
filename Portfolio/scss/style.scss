@@ -1,1 +1,103 @@
 @import 'vendors/_bootstrap.scss';
+
+/* VARIABLES */
+
+$primary-color: #4b6b8b;
+$background-color: #ededed;
+$text-color: #363636;
+$font: 16px;
+body {
+    font-family: 'Lato', 'Open Sans', Arial;
+    color: $text-color;
+    background: $background-color;
+    font-size: $font;
+}
+
+h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-size: 160%;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.primary,
+strong,
+h2 {
+    color: $primary-color;
+}
+
+.main-container {
+    background: #fff;
+    margin-top: 60px;
+    padding: 0 30px 30px 30px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    margin-top: -60px;
+}
+
+.profile-photo-align {
+    text-align: center;
+}
+
+.main-container header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200%;
+    line-height: 150%;
+}
+
+hr {
+    border-top: 1px solid #dddddd;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 250%;
+}
+
+.contact-list li {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-list i {
+    margin-right: 20px;
+}
+
+.contact-list span {
+    display: block;
+    line-height: 10%;
+    margin-left: 38px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #939292;
+}
+
+.media {
+    background: $background-color;
+    padding: 20px;
+}
+
+.media .media-left {
+    width: 18%;
+}
+
+.projects img {
+    max-width:100%;
+    max-height:100%;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: $primary-color;
+    padding: 20px;
+}
